@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra So Nguyen To</title>
+</head>
+<body>
+<input id="checkIsPrime">
+<button onclick="checkIsPrime()">Check</button>
+<br>
+<p id="resultCheck">Result: </p>
+<input id="printIsPrime">
+<button onclick="printIsPrime()">Check</button>
+<p id="resultPrint">Result: </p>
+<script>
+    function checkIsPrime() {
+        let number = document.getElementById('checkIsPrime').value;
+        let result = isPrime(number);
+        if (result) {
+            document.getElementById('resultCheck').innerHTML=number + " la so nguyen to";
+        } else {
+            document.getElementById('resultCheck').innerHTML=number + " khong phai la so nguyen to";
+        }
+    }
+    function printIsPrime() {
+        let numberLenght = document.getElementById('printIsPrime').value;
+        let result="";
+        for (let i = 0; i < numberLenght; i++) {
+            let resultNumber = isPrime(i);
+            if (resultNumber) {
+                result=result + " " + i;
+                document.getElementById('resultPrint').innerHTML=result;
+            }
+        }
+    }
+
+    function isPrime(value) {
+        if (value < 2) {
+            return false;
+        } else if (value == 2) {
+            return true;
+        } else {
+            for (let i = 2; i <= Math.sqrt(value); i++) {
+                if (value % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
+
+
+
+</script>
+</body>
+</html>
