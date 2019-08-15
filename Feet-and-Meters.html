@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feet and Meters</title>
+</head>
+<body>
+<script>
+    let resultMeter=footToMeter(1.5);
+    let resultFoot=meterToFoot(20.0);
+    function footToMeter(foot) {
+        let meter=0.305*foot;
+        return meter;
+    }
+    function meterToFoot(meter) {
+        let foot=3.279*meter;
+        return foot;
+    }
+    document.write(resultMeter + "<br>");
+    document.write(resultFoot);
+</script>
+</body>
+</html>
