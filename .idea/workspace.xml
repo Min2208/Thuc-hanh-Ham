@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aba097f8-1c6b-4de2-abd0-bdf890c8b549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LT1-BT1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LT1-BT2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LT1-BT3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LT1-BT4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LT1-BT5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BT-Kiem-tra-SNT.html" beforeDir="false" afterPath="$PROJECT_DIR$/BT-Kiem-tra-SNT.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../So-nguyen-to" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +57,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565855119212</updated>
-      <workItem from="1565855120670" duration="6407000" />
+      <workItem from="1565855120670" duration="6718000" />
+      <workItem from="1565882436340" duration="26000" />
+      <workItem from="1565918428423" duration="2553000" />
+      <workItem from="1566138955066" duration="744000" />
     </task>
     <servers />
   </component>
@@ -62,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

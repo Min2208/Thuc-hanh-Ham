@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 5</title>
+</head>
+<body onload="checkStar(prompt('Hay nhap ten ngoi sao'))">
+<script>
+    let arrNames=["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
+    let arrStar=["Ursa Minor","Tarurus Cygnus","Lyra","Aquila","Ursa Major","Leo"];
+    function checkStar(name) {
+        for (let i=0;i<arrNames.length;i++){
+            if (name==arrNames[i]){
+                alert(arrStar[i]);
+                return;
+            }
+
+        }
+        alert("Khong tim thay ngoi sao nao");
+    }
+</script>
+</body>
+</html>
